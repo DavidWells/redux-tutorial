@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import ComponentA from './ComponentA'
+import ComponentOne from './_ComponentOne'
 import './App.css';
 
 class App extends Component {
@@ -8,11 +10,14 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>React Redux Tutorial</h2>
+          <ComponentOne />
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Lets learn some redux
         </p>
+        <hr />
+        <ComponentA />
       </div>
     );
   }
