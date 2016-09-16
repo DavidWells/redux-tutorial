@@ -4,7 +4,8 @@ class ComponentFour extends Component {
   render() {
     //console.log('four', this.props)
     return (
-      <div>
+      <div className='sidebar-count'>
+        <h2>{this.props.title}</h2>
        {this.props.count}
       </div>
     );

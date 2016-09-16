@@ -18,7 +18,7 @@ class ComponentXYZ extends Component {
     this.props.changeTitle(title)
   }
   render() {
-    console.log(this.props)
+    //console.log(this.props)
     return (
       <div>
 
@@ -33,8 +33,8 @@ class ComponentXYZ extends Component {
         <br/>
         <br/>
         <hr/>
-        <h1>{this.props.title}</h1>
-        <input onChange={this.handleTextChange} ref='title' />
+        <h1>Change the sidebar title</h1>
+        <input value={this.props.title} onChange={this.handleTextChange} ref='title' />
         <br/>
         <br/>
       </div>

@@ -6,6 +6,7 @@ import { bindActionCreators } from 'redux'
 function mapStateToProps(state) {
   return {
     count: state.count, // will be this.props.count in connected component
+    title: state.activeTitle
   }
 }
 

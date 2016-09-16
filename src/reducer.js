@@ -1,7 +1,7 @@
 
 const initialState = {
   count: 0,
-  activeTitle: 'Current Title',
+  activeTitle: 'Sidebar',
 }
 
 export default function reduxReducer (state = initialState, action) {
