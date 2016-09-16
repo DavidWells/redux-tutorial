@@ -1,3 +1,4 @@
+//*
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
@@ -17,3 +18,16 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
+/**/
+/*
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './local-state-example/App';
+import './index.css';
+
+ReactDOM.render(
+  <App/>,
+  document.getElementById('root')
+);
+
+/**/
